@@ -15,3 +15,14 @@ Next Steps
 - Implement some functionality beyond hello world.
 - Check gulp tasks and refine them to produce better dist.
 - Demonstrate how this would work with two 'Single Page Applications' hosted within one app.
+
+## App Structure
+
+- Filament - Web project, the main web client application.
+    - Within the 'Apps' folder live the distinct single page apps. In this example 'external' represents a single page app available to anonymous users and 'internal' represents a single page app for logged in users.
+
+## Running the project
+
+- Restore the Nuget Packages
+- Run npm install
+- Run bower install

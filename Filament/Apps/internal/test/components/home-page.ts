@@ -1,9 +1,11 @@
-/// <reference path="../../definitions/jasmine/jasmine.d.ts" />
-define(["components/home-page/home"], function (homePage) {
+/// <reference path="../../../../definitions/jasmine/jasmine.d.ts" />
+
+define(["components/home-page/home"], (homePage) => {
     var HomePageViewModel = homePage.viewModel;
 
-    describe('Home page view model', function () {
-        it('should supply a friendly message which changes when acted upon', function () {
+    describe('Home page view model', () => {
+
+        it('should supply a friendly message which changes when acted upon', () => {
             var instance = new HomePageViewModel();
             expect(instance.message()).toContain('Welcome to ');
 
@@ -11,6 +13,6 @@ define(["components/home-page/home"], function (homePage) {
             instance.doSomething();
             expect(instance.message()).toContain('You invoked doSomething()');
         });
+
     });
 });
-//# sourceMappingURL=home-page.js.map

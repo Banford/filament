@@ -5,10 +5,9 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filament", "Filament\Filament.csproj", "{E0806838-7326-4373-A6D6-A53B0D26668C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filament.Tests", "Filament.Tests\Filament.Tests.csproj", "{A4DDDBD2-DCCE-493C-A1B8-8D003318E038}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A1D1B3F-D023-4CE8-BCE7-6900AC1CCDF2}"
 	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
 		WebEssentials-Settings.json = WebEssentials-Settings.json
 	EndProjectSection
 EndProject
@@ -29,10 +28,6 @@ Global
 		{E0806838-7326-4373-A6D6-A53B0D26668C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0806838-7326-4373-A6D6-A53B0D26668C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0806838-7326-4373-A6D6-A53B0D26668C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4DDDBD2-DCCE-493C-A1B8-8D003318E038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4DDDBD2-DCCE-493C-A1B8-8D003318E038}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4DDDBD2-DCCE-493C-A1B8-8D003318E038}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4DDDBD2-DCCE-493C-A1B8-8D003318E038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
