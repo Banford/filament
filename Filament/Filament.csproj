@@ -180,7 +180,7 @@
     <Content Include="Apps\internal\dist\css.css" />
     <Content Include="Apps\internal\dist\scripts.js" />
     <Content Include="Apps\internal\tasks\css.js" />
-    <Content Include="Apps\internal\tasks\scratch.js" />
+    <Content Include="Apps\internal\tasks\default.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="gulpfile.js" />
